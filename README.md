@@ -12,11 +12,15 @@ The author, while writing this wonderful book, has not explained some stuff maki
 
 ######Ex1
 
-In order to make a .db file, you have to create a .sql file and then do :
+In order to make a .db file, you first have to create the ex1.sql file and then do :
 ```
 sqlite3 ex1.db < ex1.sql
 ```
-which will create the database.
+which will create the database. If you don't do this you will probably get the error message, 
+
+```
+-bash: ex1.sql: No such file or directory.
+```
 
 Then if you want to check the contents of your created database, you type in your terminal 
 ```
@@ -25,4 +29,12 @@ sqlite3
 Now you can interact with it. So, to open ex1.db just do:
 ```
 .open ex1.db
+```
+######Ex3
+
+For these examples to run you have to add your data to ex1.db or else you will receive this error message
+```
+Error: near line 1: table person already exists
+Error: near line 8: table pet already exists
+Error: near line 16: table person_pet already exists
 ```
