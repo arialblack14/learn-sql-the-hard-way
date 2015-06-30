@@ -6,11 +6,11 @@ I am following [theodinproject](http://http://www.theodinproject.com/web-develop
 
 So, instead of going through the Stanford class "Introduction to Databases" (which i had completed when it was made available) i decided to do [learn SQL the Hard Way](http://sql.learncodethehardway.org/book/).
 
-####Debugging LSQLTHW
+####*Debugging LSQLTHW
 
 The author, while writing this wonderful book, has not explained some stuff making me rub my head, when trying to run his code. So here is my fixes in case someone else is facing similar errors. Excuse any misuse of the English language.
 
-######Ex1
+######*Ex1
 
 In order to make a .db file, you first have to create the ex1.sql file and then do :
 ```
@@ -30,7 +30,7 @@ Now you can interact with it. So, to open ex1.db just do:
 ```
 .open ex1.db
 ```
-######Ex3
+######*Ex3
 
 For these examples to run you have to add your data to ex1.db or else you will receive this error message
 ```
@@ -40,7 +40,7 @@ Error: near line 16: table person_pet already exists
 ```
 and so on for the others to come.
 
-######Notes on the exercises
+######*Notes on the exercises
 I should also mention that i found [this](http://zetcode.com/db/sqlite/) tutorial on sqlite3 much helpful. This site also has a Ruby-sqlite3 specific [tutorial](http://zetcode.com/db/sqliteruby/).
 
 Definitely use the following, which add headers for your columns and make them look better by sepparating them a bit. 
