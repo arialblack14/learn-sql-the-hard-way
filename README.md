@@ -8,3 +8,13 @@ So, instead of going through the Stanford class "Introduction to Databases" (whi
 
 ####Debugging LSQLTHW
 
+The author, while writing this wonderful book, has not explained some stuff making me rub my head, when trying to run his code. So here is my fixes in case someone else is facing similar errors. Excuse any misuse of the English language.
+
+######Ex1
+
+In order to make a .db file, you have to create a .sql file and then do :
+
+```
+sqlite3 ex1.db < ex1.sql
+```
+which will create the database.
