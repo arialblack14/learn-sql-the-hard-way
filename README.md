@@ -13,8 +13,16 @@ The author, while writing this wonderful book, has not explained some stuff maki
 ######Ex1
 
 In order to make a .db file, you have to create a .sql file and then do :
-
 ```
 sqlite3 ex1.db < ex1.sql
 ```
 which will create the database.
+
+Then if you want to check the contents of your created database, you type in your terminal 
+```
+sqlite3
+```
+Now you can interact with it. So, to open ex1.db just do:
+```
+.open ex1.db
+```
