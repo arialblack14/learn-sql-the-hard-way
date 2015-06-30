@@ -38,3 +38,13 @@ Error: near line 1: table person already exists
 Error: near line 8: table pet already exists
 Error: near line 16: table person_pet already exists
 ```
+and so on for the others to come.
+
+######Notes on the exercises
+I should also mention that i found [this](http://zetcode.com/db/sqlite/) tutorial on sqlite3 much helpful. This site also has a Ruby-sqlite3 specific [tutorial](http://zetcode.com/db/sqliteruby/).
+
+Definitely use the following, which add headers for your columns and make them look better by sepparating them a bit. 
+```
+.headers on
+.mode column
+```
