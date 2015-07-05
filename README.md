@@ -48,7 +48,11 @@ Definitely use the following, which add headers for your columns and make them l
 .headers on
 .mode column
 ```
-You should also use -echo in order to see which statement produces what result
+You should also use -echo in order to see which statement produces what result 
 ```
 sqlite3 -echo ex1.db < ex7.sql
+```
+and combine the above in one sentence like so
+```
+sqlite3 -header -column -echo ex1.db < ex7.sql
 ```
